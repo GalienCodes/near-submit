@@ -1,15 +1,13 @@
-# nft-marketplace-near (dApp)
+# OpenSea-clone-on-near
 [OpenSea](https://opensea.io/) clone NFT marketplace for [Aurora EVM](https://aurora.dev/) implemented on the [NEAR Blockchain](https://near.org/)
-
- ### Live Demo: 
-https://nft-marketplace-near.vercel.app/
-
+![opensea](./public/home.png)
+ ## Click on the link below for live demo
+  https://nft-marketplace-near.vercel.app/
 ### What is this
 The NFT Marketplace as a decentralized Web3 application built over a javascript software stack using EVM-based backend software, tools, and specification but for a non-EVM protocol platform i.e. NEAR using Aurora EVM and its currency.
 
-This enables users to list their NFTs on the NEAR platform and get benefits of lower gas charges and the benefit of a non-EVM blockchain protocol and platform. Here NFTs trading like directly sells, auction, lists, unlisting, etc. are feasible.
-
-  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) ***Currently its configured to connect Aurora TestNet.*** so connect this website with your Aurora TestNet network in your MetaMask Wallet and ensure you have sufficent balance.
+This enables users to list their NFTs on the NEAR platform and get benefits of lower gas charges and the benefit of a non-EVM blockchain protocol and platform. Here NFTs trading like directly sells, auction, lists, unlisting, etc. are feasible. </br>
+ ***NB: Currently its configured to connect Aurora TestNet.*** so connect this website with your Aurora TestNet network in your MetaMask Wallet and ensure you have sufficent balance.
 
 ### How this is build
 1. Frontend application has built on the react.js (javascript) and @mui material design UI library
@@ -91,20 +89,5 @@ Use Hardhat CLI to deploy contracts
    npx hardhat run scripts/deploy.js --network localhost
    ```
     No need to do any configuration in the file ```hardhat.config.js``` for the deployement to localhost since it is automatically identified by the Hardhat CLI
-
-### Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-Refer the Create React App link for more
-
-### Known bugs
-1. On refresh page other than home cause wallet disconnection issue so contents on the same page doesn't loads but after going to other pages by clicking links then its works fine. [ToDo] This bug needs to fixed
-
-
-
-
-
-
 
 
